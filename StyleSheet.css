@@ -1,0 +1,98 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display:flex;
+	height: 10px;
+	justify-content: center;
+	background-size: cover;
+	align-items: center;
+	min-height: 100vh;
+	background-position: center;
+	
+	
+	background-image: url("bookbg.jpg");
+}
+
+
+.main {
+	position: fixed;
+	width: 600px;
+	height: 500px;
+	background: gainsboro;
+	border: 2px solid black;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	align-content: left;
+	text-align: center;
+	border-radius: 20px;
+	margin-right: 500px;
+}
+.main h1{
+	text-align: center;
+}
+
+.main h2{
+	text-align: center;
+}
+
+.btn
+{
+	background-color: steelblue;
+	color: black;
+	padding: 5px;
+	margin: 10px;
+}
+.tbl
+{
+	height:100px;
+	overflow-y: scroll;
+	width: 100%;
+	align-self: center;
+	background-color: #7cc0d8;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+.tblform{
+	width: 70%;
+	align-self: center;
+	margin-left:100px;
+	text-align: left;
+}
+.thead
+{
+	background-color: #134b5f;
+}
+.cent
+{
+	background-color: aliceblue;
+	
+}
+.headercss
+{
+		padding-right:1000px;
+		align-self:flex-start;
+		vertical-align: top;
+}
+.header1
+{
+	margin:9px;
+	font-weight:bold;
+}
+
+.name
+{
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	align-content: left;
+	text-align: center;
+	margin-right: 100px;
+	font-family:sans-serif;
+	font-weight:bold;
+}
